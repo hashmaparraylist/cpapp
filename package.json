@@ -48,7 +48,12 @@
         }
       },
       "[production]": {
-        "db": "hana"
+        "db": {
+          "kind": "hana"
+        }
+      }, 
+      "db": {
+        "kind": "sql"
       }
     }
   }

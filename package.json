@@ -5,6 +5,9 @@
   "repository": "<Add your repository here>",
   "license": "UNLICENSED",
   "private": true,
+  "engines": {
+    "node": "^18"
+  },
   "dependencies": {
     "@sap/cds": "^7",
     "express": "^4",
@@ -14,6 +17,7 @@
   },
   "devDependencies": {
     "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
     "@sap/ux-specification": "^1.120.1"
   },
   "scripts": {
